@@ -1,0 +1,563 @@
+.bg-navbar{
+    position: absolute;
+    width: 100%;
+    height: 71px;
+    left: 0px;
+    top: -1px;
+    position: fixed;
+    
+    background: rgba(57, 197, 243, 0.69);
+    backdrop-filter: blur(2px);
+}
+
+.bg-navbar .logo{
+    position: absolute;
+    width: 97px;
+    height: 40px;
+    left: 25px;
+    top: 15px;
+    font-family: 'Jua', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+.bg-navbar ul{
+    list-style-type: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+.bg-navbar #Home{
+    position: absolute;
+    width: 46.38px;
+    height: 12.98px;
+    left: 605.72px;
+    top: 25px;
+    color: #FFEF76;
+}
+
+.bg-navbar #Home:Hover{
+    color:#D9CC64;
+}
+
+.bg-navbar #Classes{
+    position: absolute;
+    width: 60.61px;
+    height: 13.01px;
+    left: 673.32px;
+    top: 25px;
+    color: #FFFFFF;
+}
+
+.bg-navbar #Classes:Hover{
+    color:#FFEF76;
+}
+
+.bg-navbar #Teachers{
+    position: absolute;
+    width: 70.95px;
+    height: 12.98px;
+    left: 753.95px;
+    top: 25px;
+    color: #FFFFFF;
+}
+
+.bg-navbar #Teachers:Hover{
+    color:#FFEF76;
+}
+
+.bg-navbar #Gallery{
+    position: absolute;
+    width: 57.44px;
+    height: 16.22px;
+    left: 846.1px;
+    top: 25px;
+    color: #FFFFFF;
+}
+
+.bg-navbar #Gallery:Hover{
+    color:#FFEF76;
+}
+
+.bg-navbar #Login{
+    box-sizing: border-box;
+    width: 99px;
+    margin-left: 1023px;
+    margin-top: 13px;
+    border: 2px solid #FFFFFF;
+    border-radius: 11px;
+    color:#FFFFFF;
+}
+
+.bg-navbar #Login:Hover{
+    color:#76d7f7;
+    background-color:#FFFFFF;
+    border: 2px solid #76d7f7;
+}
+
+.bg-navbar #Register{
+    width: 99px;
+    left: 1131px;
+    margin-top: 13px;
+    border: 2px solid #FFFFFF;
+    background-color:#FFFFFF;
+    color: #76d7f7;
+    border-radius: 11px;
+}
+
+.bg-navbar #Register:Hover{
+    color:#FFFFFF;
+    background-color: #76d7f7;
+    border: 2px solid #FFFFFF;
+}
+
+.deskripsi .kids{
+    position: absolute;
+    width: 150px;
+    height: 22px;
+    left: 90px;
+    top: 200px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #ECD100;
+}
+
+.deskripsi .line-one{
+    position: absolute;
+    width: 191px;
+    height: 0px;
+    left: 235px;
+    top: 211px;
+
+    border: 1px solid #FFE200;
+    border-radius: 39px;
+    transform: rotate(0deg);
+}
+
+.deskripsi .make{
+    position: absolute;
+    left: 88px;
+    top: 216px;
+    font-family: 'Nerko One', cursive;
+    letter-spacing: -2px;
+    line-height: 104%;
+    font-size: 45px;
+    font-weight: bold;
+    color: #39C5F3;
+}
+
+.deskripsi .desk{
+    position: absolute;
+    width: 559px;
+    height: 54px;
+    left: 90px;
+    top: 325px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #269AC0;
+}
+
+#learn{
+    /* position: absolute; */
+    width: 146px;
+    height: 45px;
+    left: 88px;
+    top: 393px;
+    font-family: 'Nerko One', cursive;
+    background: #FFE200;
+    border: solid #FFE200;
+    color:white;
+    font-weight: bold;
+    border-radius: 40px 0 40px 0;
+}
+
+.deskripsi .dash-pict{
+    width: 422px;
+    height: 393px;
+    margin-left: 753px;
+    margin-top: 119px;
+}
+
+.more .one-1{
+    position: absolute;
+    width: 70px;
+    height: 40px;
+    left: 273px;
+    top: 573px;
+    font-family: 'Nerko One', cursive;
+    font-weight: bold;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #39C5F3;
+}
+
+.more .one-2{
+    position: absolute;
+    width: 118px;
+    height: 27px;
+    left: 249px;
+    top: 608px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #269AC0;
+}
+
+.more .two-1{
+    position: absolute;
+    width: 83px;
+    height: 40px;
+    left: 464px;
+    top: 572px;
+    font-family: 'Nerko One', cursive;
+    font-weight: bold;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #39C5F3;
+    
+}
+
+.more .two-2{
+    position: absolute;
+    width: 143px;
+    height: 27px;
+    left: 438px;
+    top: 608px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #269AC0;
+}
+
+.more .three-1{
+    position: absolute;
+    width: 94px;
+    height: 40px;
+    left: 684px;
+    top: 572px;
+    font-family: 'Nerko One', cursive;
+    font-weight: bold;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #39C5F3;
+}
+
+.more .three-2{
+    position: absolute;
+    width: 65px;
+    height: 27px;
+    left: 697px;
+    top: 612px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #269AC0;
+}
+
+.more .four-1{
+    position: absolute;
+    width: 69px;
+    height: 40px;
+    left: 904px;
+    top: 572px;
+    font-family: 'Nerko One', cursive;
+    font-weight: bold;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #39C5F3;
+}
+
+.more .four-2{
+    position: absolute;
+    width: 139px;
+    height: 27px;
+    left: 869px;
+    top: 612px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #269AC0;
+}
+
+.about_us .ab-image{
+    width: 342px;
+    height: 301px;
+    margin-left: 95px;
+    margin-top: 160px;
+
+    background: url(image.png);
+    border-radius: 15px;
+}
+
+.about_us .about{
+    position: absolute;
+    width: 68px;
+    height: 22px;
+    left: 550px;
+    top: 730px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #ECD100;
+}
+
+.about_us .ab_line{
+    position: absolute;
+    width: 286px;
+    height: 0px;
+    left: 623px;
+    top: 741.46px;
+    border: 1px solid #FFE200;
+    border-radius: 39px;
+    transform: rotate(0deg);
+}
+
+.about_us .best{
+    position: absolute;
+    width: 359px;
+    height: 40px;
+    left: 550px;
+    top: 755px;
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #39C5F3;
+    font-family: 'Nerko One', cursive;
+}
+
+.about_us .desk{
+    position: absolute;
+    width: 508px;
+    height: 108px;
+    left: 550px;
+    top: 805px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #269AC0; 
+}
+
+.about_us #learn{
+    position: absolute;
+    width: 146px;
+    height: 45px;
+    left: 550px;
+    top: 934px;
+    font-family: 'Nerko One', cursive;
+    background: #FFE200;
+    border: solid #FFE200;
+    color:white;
+    font-weight: bold;
+    border-radius: 40px 0 40px 0;
+}
+
+.facilities .title{
+    position: absolute;
+    width: 225px;
+    height: 40px;
+    left: 527px;
+    top: 1081px;
+    font-family: 'Nerko One', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 40px;
+    text-align: center;
+    color: #269AC0;
+}
+
+.facilities .canteen{
+    position: absolute;
+    width: 202px;
+    height: 178px;
+    left: 109px;
+    top: 1146px;
+}
+
+.facilities .playground{
+    position: absolute;
+    width: 202px;
+    height: 178px;
+    left: 386px;
+    top: 1146px;
+}
+
+.facilities .schoolbus{
+    position: absolute;
+    width: 201px;
+    height: 178px;
+    left: 664px;
+    top: 1146px;
+}
+
+.facilities .classrom{
+    position: absolute;
+    width: 201px;
+    height: 178px;
+    left: 941px;
+    top: 1146px;
+}
+
+.facilities .canteen .icon-cant{
+    position: absolute;
+    width: 51px;
+    height: 56.33px;
+    left: 30px;
+    top: 20px;
+}
+
+.facilities .canteen .title{
+    position: absolute;
+    width: 73px;
+    height: 25px;
+    left: 95px;
+    top: 50px;
+    font-family: 'Nerko One', cursive;
+    font-weight: bold;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #67B8AA;
+}
+
+.facilities .canteen .text{
+    position: absolute;
+    width: 142px;
+    height: 54px;
+    left: 40px;
+    top: 90px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #67B8AA;
+}
+
+.facilities .playground .icon-play{
+    position: absolute;
+    width: 56px;
+    height: 51px;
+    left: 25px;
+    top: 20px;
+}
+
+.facilities .playground .title{
+    position: absolute;
+    width: 98px;
+    height: 25px;
+    left: 95px;
+    top: 50px;
+    font-family: 'Nerko One', cursive;
+    font-weight: bold;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #AC7CA0;
+}
+
+.facilities .playground .text{
+    position: absolute;
+    width: 142px;
+    height: 72px;
+    left: 40px;
+    top: 90px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #AC7CA0;
+}
+
+.facilities .schoolbus .icon-bus{
+    position: absolute;
+    width: 51px;
+    height: 56.33px;
+    left: 25px;
+    top: 20px;
+}
+
+.facilities .schoolbus .title{
+    position: absolute;
+    width: 93px;
+    height: 25px;
+    left: 95px;
+    top: 50px;
+    font-family: 'Nerko One', cursive;
+    font-weight: bold;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #A8A36E;
+}
+
+.facilities .schoolbus .text{
+    position: absolute;
+    width: 142px;
+    height: 54px;
+    left: 40px;
+    top: 90px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #A8A36E;
+}
+
+.facilities .classrom .icon-class{
+    position: absolute;
+    width: 59px;
+    height: 61px;
+    left: 25px;
+    top: 20px;
+}
+
+.facilities .classrom .title{
+    position: absolute;
+    width: 90px;
+    height: 25px;
+    left: 95px;
+    top: 50px;
+    font-family: 'Nerko One', cursive;
+    font-weight: bold;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #6BAE96;
+}
+
+.facilities .classrom .text{
+    position: absolute;
+    width: 142px;
+    height: 72px;
+    left: 40px;
+    top: 90px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #6BAE96;
+}
