@@ -1,5 +1,5 @@
 .bg-navbar{
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 71px;
     left: 0px;
@@ -164,7 +164,7 @@
 }
 
 #learn{
-    /* position: absolute; */
+    position: absolute;
     width: 146px;
     height: 45px;
     left: 88px;
@@ -297,7 +297,7 @@
     width: 342px;
     height: 301px;
     margin-left: 95px;
-    margin-top: 160px;
+    margin-top: 200px;
 
     background: url(image.png);
     border-radius: 15px;
@@ -560,4 +560,71 @@
     font-size: 13px;
     line-height: 18px;
     color: #6BAE96;
+}
+
+.classes .title{
+    position: absolute;
+    width: 206px;
+    height: 40px;
+    left: 535px;
+    top: 1394px;
+    font-family: 'Nerko One', cursive;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #269AC0;
+}
+
+.classes .bg-blue{
+    position: absolute;
+    width: 232px;
+    height: 271px;
+    left: 191px;
+    top: 1575px;
+    border-radius: 10px;
+}
+
+.classes .bg-pict{
+    position: absolute;
+    width: 215px;
+    height: 186px;
+    left: 199px;
+    top: 1482px;
+    border-radius: 5px;
+}
+
+.classes .two{
+    position: absolute;
+    width: 235px;
+    height: 271px;
+    left: 518px;
+    top: 1575px;
+    border-radius: 10px;
+}
+
+.classes .pict-2{
+    position: absolute;
+    width: 212px;
+    height: 186px;
+    left: 529px;
+    top: 1482px;
+    border-radius: 5px;
+}
+
+.classes .three{
+    position: absolute;
+    width: 232px;
+    height: 271px;
+    left: 848px;
+    top: 1575px;
+    border-radius: 10px;
+}
+
+.classes .pict-3{
+    position: absolute;
+    width: 214px;
+    height: 186px;
+    left: 856px;
+    top: 1482px;
+    border-radius: 5px;
 }
